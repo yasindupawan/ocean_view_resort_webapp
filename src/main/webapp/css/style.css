@@ -1,3 +1,31 @@
+/* ========== ROOT VARIABLES ========== */
+:root {
+    --primary: #1a4b7a;
+    --primary-light: #2563a8;
+    --primary-dark: #0f3259;
+    --accent: #0ea5c5;
+    --accent-hover: #0891b2;
+    --bg: #f0f4f8;
+    --surface: #ffffff;
+    --surface-2: #e8eef5;
+    --border: #c8d6e5;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --success: #16a34a;
+    --error: #dc2626;
+    --shadow: 0 2px 12px rgba(26,75,122,0.10);
+    --radius: 10px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+}
+
 /* ========== LOGIN PAGE ========== */
 .login-page {
     background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--accent) 100%);
