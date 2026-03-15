@@ -71,6 +71,10 @@ Run the Application
 Open your browser and navigate to:
 http://localhost:8080/ocean_view_resort_webapp
 
+Default Login
+User Name = admin
+Password = a
+
 Author
 Developed by Yasindu Pawan
    
